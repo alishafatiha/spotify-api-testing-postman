@@ -1,0 +1,16 @@
+# Secret / environment files
+.env
+*.env
+
+# Postman environment files
+*environment*.json
+
+# Files that may contain tokens/secrets
+secrets.json
+tokens.json
+
+# macOS system file
+.DS_Store
+
+# If you use Newman / Node.js later
+node_modules/
