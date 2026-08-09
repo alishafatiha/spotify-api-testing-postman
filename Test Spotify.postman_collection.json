@@ -1,0 +1,98 @@
+{
+  "info": {
+    "_postman_id": "4bc4caab-b340-4899-9119-912110727901",
+    "name": "Test Spotify",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53583463",
+    "_collection_link": "https://go.postman.co/collection/53583463-4bc4caab-b340-4899-9119-912110727901?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Access Grant",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://accounts.spotify.com/authorize?client_id=a96e335755b049dd9ccce8685621443e&response_type=code&redirect_uri=http://127.0.0.1:3030/callback&scope=playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public&show_dialog=true",
+          "protocol": "https",
+          "host": [
+            "accounts",
+            "spotify",
+            "com"
+          ],
+          "path": [
+            "authorize"
+          ],
+          "query": [
+            {
+              "key": "client_id",
+              "value": "a96e335755b049dd9ccce8685621443e",
+              "type": "text"
+            },
+            {
+              "key": "response_type",
+              "value": "code",
+              "type": "text"
+            },
+            {
+              "key": "redirect_uri",
+              "value": "http://127.0.0.1:3030/callback",
+              "type": "text"
+            },
+            {
+              "key": "scope",
+              "value": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public",
+              "type": "text"
+            },
+            {
+              "key": "show_dialog",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Access Token",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create a Playlist",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get a Playlist",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update a Playlist",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
