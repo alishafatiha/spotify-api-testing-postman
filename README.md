@@ -21,3 +21,11 @@ Example:
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
+```
+## Tools & Technologies
+
+- Postman
+- Spotify Web API
+- OAuth 2.0
+- JavaScript (Postman Test Scripts)
+- Git & GitHub
